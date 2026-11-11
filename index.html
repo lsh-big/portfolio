@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1649df">
+  <meta name="description" content="AI·빅데이터 전문 역량을 갖춘 이승호의 비즈니스 포트폴리오">
+  <title>이승호 | AI · 빅데이터 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="이승호 포트폴리오 홈">
+      <span class="brand-mark">SH</span>
+      <span>SEUNGHO LEE <span aria-hidden="true">·</span> PORTFOLIO</span>
+    </a>
+    <nav aria-label="페이지 메뉴">
+      <a href="#profile">프로필</a>
+      <a href="#expertise">전문 역량</a>
+      <a href="#projects">프로젝트</a>
+      <a href="#memo">문의</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="profile">
+    <div class="page hero-inner">
+      <div>
+        <div class="eyebrow">AI · BIG DATA PROFESSIONAL</div>
+        <h1>이승호 <span>입니다.</span></h1>
+        <p class="hero-copy">
+          데이터에서 의미를 발견하고, AI로 새로운 가능성을 만드는 사람.<br>
+          8개월간의 AI·빅데이터 전문 교육을 바탕으로 비즈니스의 문제를
+          데이터 관점에서 바라보고 실행 가능한 해답을 찾아갑니다.
+        </p>
+        <div class="hero-tags" aria-label="핵심 키워드">
+          <span>AI &amp; 머신러닝</span>
+          <span>빅데이터 분석</span>
+          <span>비즈니스 문제 해결</span>
+        </div>
+        <a class="scroll-cue" href="#aboutTitle">SCROLL TO EXPLORE</a>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-frame has-photo" id="photoFrame">
+          <img id="profilePhoto" src="images/seungho-lee.jpg" alt="이승호 프로필 사진">
+          <div class="photo-placeholder">
+            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <circle cx="24" cy="17" r="8" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M9 41c1.4-8.1 6.4-12.5 15-12.5S37.6 32.9 39 41" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <strong>프로필 사진</strong>
+            <small>사진을 등록해 주세요</small>
+          </div>
+        </div>
+        <label class="photo-upload">
+          <span aria-hidden="true">＋</span>
+          <input id="photoInput" type="file" accept="image/*" aria-label="프로필 사진 변경">
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <main class="page">
+    <section class="projects-section" id="projects" aria-labelledby="projectsTitle">
+      <div class="section-heading projects-heading">
+        <div class="projects-title">
+          <h2 id="projectsTitle">프로젝트</h2>
+          <p>기획과 구현으로 이어가는 작업을 소개합니다.</p>
+        </div>
+        <span>Selected work</span>
+      </div>
+      <div class="project-grid">
+        <article class="card project-card" data-project="zipchatgo">
+          <div class="project-cover" aria-hidden="true">
+            <div class="mock-window">
+              <div class="mock-toolbar"><i></i><i></i><i></i></div>
+              <div class="mock-content">
+                <div class="mock-copy">
+                  <strong>집찾고</strong>
+                  <span></span><span></span>
+                </div>
+                <div class="mock-visual">
+                  <svg viewBox="0 0 48 48" fill="none">
+                    <path d="m8 22 16-13 16 13v17H8V22Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                    <path d="M19 39V26h10v13M5 22 24 6l19 16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-type">Real estate platform</span>
+              <span class="project-status">팀 프로젝트</span>
+            </div>
+            <h3>집찾고</h3>
+            <p>팀과 함께 제작한 부동산 플랫폼 프로젝트입니다. 상세 소개와 결과 화면은 추후 연결할 수 있도록 준비했습니다.</p>
+            <div class="project-card-bottom">
+              <div class="project-tags"><span>부동산</span><span>팀 프로젝트</span></div>
+              <button class="project-open" type="button" data-dialog="zipchatgoDialog" aria-haspopup="dialog">
+                프로젝트 보기
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 15 15 4M6 4h9v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project-card" data-project="shopping">
+          <div class="project-cover" aria-hidden="true">
+            <div class="mock-window">
+              <div class="mock-toolbar"><i></i><i></i><i></i></div>
+              <div class="mock-content">
+                <div class="mock-copy">
+                  <strong>ONLINE BOUTIQUE</strong>
+                  <span></span><span></span>
+                </div>
+                <div class="mock-visual">
+                  <svg viewBox="0 0 48 48" fill="none">
+                    <path d="m16 13 8-4 8 4 7 5-5 7-4-3v17H18V22l-4 3-5-7 7-5Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M20 11c0 3 1.4 5 4 5s4-2 4-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-meta">
+              <span class="project-type">Online fashion store</span>
+              <span class="project-status is-progress">제작 중</span>
+            </div>
+            <h3>온라인 의류 쇼핑몰</h3>
+            <p>현재 제작 중인 온라인 의류 쇼핑몰입니다. 진행 상황과 실제 화면은 완성 후 이곳에 추가할 예정입니다.</p>
+            <div class="project-card-bottom">
+              <div class="project-tags"><span>이커머스</span><span>진행 중</span></div>
+              <button class="project-open" type="button" data-dialog="shoppingDialog" aria-haspopup="dialog">
+                프로젝트 보기
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 15 15 4M6 4h9v9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="content-grid">
+      <div class="main-column">
+        <section class="card" aria-labelledby="aboutTitle">
+          <div class="section-heading">
+            <h2 id="aboutTitle">프로필</h2>
+            <span>About me</span>
+          </div>
+          <p class="intro-text">
+            안녕하세요, <strong>이승호</strong>입니다. AI·빅데이터 분야의 전문성을 갖추기 위해
+            8개월간 집중적으로 학습하며 데이터 분석과 인공지능의 기초부터 실무 적용까지 익혔습니다.
+            꾸준한 학습과 책임감 있는 소통을 바탕으로 데이터 기반의 비즈니스 성과에 기여하겠습니다.
+          </p>
+        </section>
+
+        <section class="card" aria-labelledby="educationTitle">
+          <div class="section-heading">
+            <h2 id="educationTitle">교육 및 학습</h2>
+            <span>Education</span>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">8개월 과정 수료</div>
+              <h3 class="timeline-title">AI · 빅데이터 전문 과정</h3>
+              <p class="timeline-detail">인공지능 및 빅데이터 분석 전문 지식 습득</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">지속적인 성장</div>
+              <h3 class="timeline-title">실무 역량 강화</h3>
+              <p class="timeline-detail">배운 지식을 비즈니스 문제 해결에 연결하는 학습 지속</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" id="expertise" aria-labelledby="expertiseTitle">
+          <div class="section-heading">
+            <h2 id="expertiseTitle">전문 역량</h2>
+            <span>Core expertise</span>
+          </div>
+          <div class="skill-list">
+            <div class="skill">
+              <div class="skill-label">AI · 인공지능</div>
+              <div class="skill-pills"><span>머신러닝</span><span>AI 활용 이해</span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label">빅데이터</div>
+              <div class="skill-pills"><span>데이터 분석</span><span>데이터 기반 사고</span></div>
+            </div>
+            <div class="skill">
+              <div class="skill-label">비즈니스</div>
+              <div class="skill-pills"><span>문제 정의</span><span>실행 중심</span><span>협업과 소통</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="approachTitle">
+          <div class="section-heading">
+            <h2 id="approachTitle">일하는 방식</h2>
+            <span>My approach</span>
+          </div>
+          <div class="focus-box">
+            <p>목표와 맥락을 먼저 이해하고, 데이터를 근거로 우선순위를 세웁니다. 배움에 열린 태도와 꾸준한 실행력으로 팀과 함께 현실적인 결과를 만들어가겠습니다.</p>
+          </div>
+        </section>
+      </div>
+
+      <aside class="side-column">
+        <section class="card memo-card memo-sidebar" id="memo" aria-labelledby="memoTitle">
+          <div class="memo-layout">
+            <div class="memo-intro">
+              <div class="section-heading">
+                <h2 id="memoTitle">이메일 문의</h2>
+                <span>Email</span>
+              </div>
+              <p class="memo-caption">연락처는 이메일 또는 전화번호 중 하나가 필요합니다. 보내기를 누르면 메일 앱이 열립니다.</p>
+              <span class="memo-privacy">받는 사람: winho2@naver.com</span>
+            </div>
+            <form class="memo-form" id="memoForm">
+              <input id="memoName" name="name" autocomplete="name" maxlength="40" placeholder="이름" aria-label="이름" required>
+              <input id="memoSubject" name="subject" maxlength="100" placeholder="제목" aria-label="제목" required>
+              <input id="memoEmail" name="email" type="email" autocomplete="email" maxlength="254" placeholder="이메일" aria-label="이메일 (연락처)">
+              <input id="memoPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="30" placeholder="전화번호" aria-label="전화번호 (연락처)">
+              <textarea id="memoMessage" name="message" maxlength="2000" placeholder="메시지를 입력해 주세요." aria-label="메시지" required></textarea>
+              <p class="memo-notice" id="memoNotice" aria-live="polite"></p>
+              <button type="submit">이메일 보내기</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="card contact-card" aria-labelledby="contactTitle">
+          <div class="section-heading">
+            <h2 id="contactTitle">기본 정보</h2>
+            <span>Profile</span>
+          </div>
+          <ul class="contact-list">
+            <li><strong>이름</strong><span>이승호</span></li>
+            <li><strong>나이 · 성별</strong><span>45세 남성</span></li>
+            <li><strong>전문 분야</strong><span>AI · 빅데이터</span></li>
+            <li><strong>교육 기간</strong><span>8개월 과정 수료</span></li>
+            <li><strong>프로필</strong><span>비즈니스 프로페셔널</span></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <dialog class="project-dialog" id="zipchatgoDialog" aria-labelledby="zipchatgoDialogTitle" data-project="zipchatgo">
+    <div class="dialog-cover" aria-hidden="true">
+      <div class="mock-window">
+        <div class="mock-toolbar"><i></i><i></i><i></i></div>
+        <div class="mock-content">
+          <div class="mock-copy"><strong>집찾고</strong><span></span><span></span></div>
+          <div class="mock-visual">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="m8 22 16-13 16 13v17H8V22Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              <path d="M19 39V26h10v13M5 22 24 6l19 16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog-content">
+      <div class="dialog-title-row">
+        <div>
+          <h2 id="zipchatgoDialogTitle">집찾고</h2>
+          <p>부동산 플랫폼 · 팀 프로젝트</p>
+        </div>
+        <form method="dialog"><button class="dialog-close" type="submit" aria-label="상세 창 닫기">×</button></form>
+      </div>
+      <p class="dialog-description">팀 프로젝트로 제작한 부동산 플랫폼입니다. 프로젝트의 상세 설명과 실제 화면은 준비되는 대로 이 포트폴리오에서 확인할 수 있도록 연결할 예정입니다.</p>
+      <dl class="dialog-info">
+        <dt>프로젝트</dt><dd>집찾고</dd>
+        <dt>분야</dt><dd>부동산 플랫폼</dd>
+        <dt>진행 형태</dt><dd>팀 프로젝트</dd>
+        <dt>상세 정보</dt><dd>기여 내용 및 결과 화면 추후 업데이트</dd>
+      </dl>
+      <p class="dialog-note">프로젝트 링크와 상세 자료는 추후 연결 예정입니다.</p>
+      <div class="dialog-actions"><form method="dialog"><button class="dialog-done" type="submit">확인</button></form></div>
+    </div>
+  </dialog>
+
+  <dialog class="project-dialog" id="shoppingDialog" aria-labelledby="shoppingDialogTitle" data-project="shopping">
+    <div class="dialog-cover" aria-hidden="true">
+      <div class="mock-window">
+        <div class="mock-toolbar"><i></i><i></i><i></i></div>
+        <div class="mock-content">
+          <div class="mock-copy"><strong>ONLINE BOUTIQUE</strong><span></span><span></span></div>
+          <div class="mock-visual">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="m16 13 8-4 8 4 7 5-5 7-4-3v17H18V22l-4 3-5-7 7-5Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20 11c0 3 1.4 5 4 5s4-2 4-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog-content">
+      <div class="dialog-title-row">
+        <div>
+          <h2 id="shoppingDialogTitle">온라인 의류 쇼핑몰</h2>
+          <p>이커머스 · 현재 제작 중</p>
+        </div>
+        <form method="dialog"><button class="dialog-close" type="submit" aria-label="상세 창 닫기">×</button></form>
+      </div>
+      <p class="dialog-description">현재 제작 중인 온라인 의류 쇼핑몰입니다. 완성도에 맞춰 프로젝트 소개와 실제 서비스 화면을 업데이트할 예정입니다.</p>
+      <dl class="dialog-info">
+        <dt>프로젝트</dt><dd>온라인 의류 쇼핑몰</dd>
+        <dt>분야</dt><dd>온라인 커머스</dd>
+        <dt>진행 상태</dt><dd>제작 중</dd>
+        <dt>상세 정보</dt><dd>기능 및 결과 화면 추후 업데이트</dd>
+      </dl>
+      <p class="dialog-note">프로젝트 링크와 상세 자료는 추후 연결 예정입니다.</p>
+      <div class="dialog-actions"><form method="dialog"><button class="dialog-done" type="submit">확인</button></form></div>
+    </div>
+  </dialog>
+
+  <footer>
+    <strong>이승호</strong> · AI &amp; Big Data Portfolio <span aria-hidden="true">—</span> 데이터로 더 나은 가능성을 만듭니다.
+  </footer>
+  <button class="back-to-top" id="backToTop" type="button" aria-label="페이지 맨 위로 이동">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 14 6-6 6 6M12 8v11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
