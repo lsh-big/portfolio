@@ -24,10 +24,10 @@
 
 팀과 함께 제작한 부동산 플랫폼 프로젝트입니다. 프로젝트의 구체적인 기여 내용과 결과 화면은 추후 포트폴리오에 업데이트할 예정입니다.
 
-### [ONFIT](https://onfit3.netlify.app/)
+### [ONFIT](https://semiproject.onrender.com/)
 **이커머스 · 팀 프로젝트**
 
-팀과 함께 제작한 온라인 의류 쇼핑몰입니다. [사이트 바로가기](https://onfit3.netlify.app/)
+팀과 함께 제작한 온라인 의류 쇼핑몰입니다. [사이트 바로가기](https://semiproject.onrender.com/)
 
 ## 일하는 방식과 포부
 
