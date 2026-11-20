@@ -67,3 +67,4 @@ memoForm.addEventListener("submit", event => {
   window.location.href = `mailto:winho2@naver.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   memoNotice.textContent = "메일 앱에서 내용을 확인하고 전송해 주세요.";
 });
+memoForm.hidden = false;
